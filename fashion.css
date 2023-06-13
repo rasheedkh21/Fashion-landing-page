@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrapper {
+    height: 1007.93px;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%; 
+    height: 122px;
+    background: #FFFFFF;
+    display: grid;
+    grid-template-columns: auto auto;
+    z-index: 1;
+}
+
+.right-nav {
+    padding-top: 40px;
+    margin-left: 100px;
+}
+
+.right-nav p {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #054C73;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-nav p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 17px;
+    color: #333333;
+    padding-top: 10px;
+}
+
+.left-nav p:hover {
+   color: #a2a396;
+   cursor: pointer;
+}
+
+.collection {
+   display: flex;
+   justify-content: right;
+   align-items: center;
+    height: 1000px;
+    background-image: url(./assets/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.buy-now {
+    width: 643px;
+    height: 443px;
+    background: #DFE9F4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+
+}
+
+.buy-now p {
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 39px;
+    color: #333333
+}
+
+.buy-now h1 {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: #054C73;
+}
+
+.buy-now button {
+    color: #FFFFFF;
+    width: 229px;
+    height: 70px;
+    background: #054C73;
+    border-radius: 50px;
+    border: none;
+}
+
+.buy-now button:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.bottom-navbar {
+    height: 150px;
+    background: #F2F5FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.antivirus{
+    display: flex;
+    gap: 30px;
+}
+.wrapper-2 {
+    width: 100%;
+    height: 795px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.insparation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.insparation h1 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 39px;
+    color: #333333;
+}
+
+.insparation p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 80px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    height: 500px;
+    width: 1300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.scandinavia img {
+    width: 355px;
+    height: 434px;
+    margin-bottom: 100px;
+}
+
+.clock img {
+    border-top-left-radius: 20%;
+}
+
+.lamp {
+    background-color: #C4C4C4;
+    width: 355px;
+    height: 434px;
+    border-bottom-right-radius: 20%;
+}
+
+.lamp img {
+    margin-left: 120px;
+}
+
+.wrapper-3 {
+    width: 100%;
+    height: 874px;
+    background: #F2F5FF;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.left-wrap {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-wrap h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 39px;
+    color: #333333;
+}
+
+.left-wrap p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    color: #666666;
+
+}
+
+.left-wrap button {
+    width: 228px;
+    height: 68px;
+    font-size: 20px;
+    color: #F2F5FF;
+    background: #054C73;
+    border-radius: 50px;
+    border: none;
+}
+
+.left-wrap button:hover {
+    background-color: aqua;
+}
+
+.right-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px ;
+
+}
+
+.right-wrap img {
+    position: relative;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-left: 50px
+}
+
+.circle {
+   position: absolute;
+    width: 372px;
+    height: 373.71px;
+    border-radius: 50%;
+    margin-right: -300px;
+    background: #09513B;
+
+}
+.wrapper-4 {
+    width: 100%;
+    height: 790px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    height: 500px;
+    width: 1300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.images1 p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.wrapper-5 {
+    width: 100%;
+    height: 874px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrap {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    height: 700px;
+    width: 1300px;
+    justify-content: space-evenly;
+    
+}
+
+.number {
+    background-color: black;
+    color: aliceblue;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: -30px;
+    border: 10px solid white;
+}
+
+.image-wrap1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-wrap1 h1 {
+    width: 233px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.image-wrap p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+}
+.wrapper-6 {
+    height: 363px;
+    background: #F2F5FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+   align-items: center;
+}
+
+.button input {
+    position: relative;
+    height: 70px;
+    width: 486px;
+    border-radius: 3px;
+  
+}
+.button input ::placeholder{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button button {
+    position: absolute;
+    background: #054C73;
+    border: 1px solid #011C42;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    height: 80px;
+    width: 153px;
+    color: #FFFFFF
+    }
+.button button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.last-wrap {
+    height: 386px;
+    background: #03344F;
+    display: flex;
+}
+
+.last-wrap h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.last-wrap p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+}
+
+.beauty {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
